@@ -1,0 +1,45 @@
+.Football {
+  position: absolute;
+  top: 69%;
+  left: 25%;
+  font-size: 4.5rem;
+}
+
+button {
+  position: absolute;
+  top: 80%;
+  left: 27.5%;
+}
+
+body {
+  height: 55rem;
+}
+
+.Couverture {
+  height: 50.7rem;
+}
+
+.Contenant {
+  margin-left: 17rem;
+  margin-right: 12rem;
+}
+
+i {
+  font-size: 0.7rem;
+}
+
+.photo {
+  height: 15rem;
+  width: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 15%;
+}
+
+.background {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(202, 248, 255) 0%, rgb(186, 204, 227) 51.2%, rgb(117, 144, 179) 100.1%);
+}
+
+.imagemargin {
+  margin-top: 2.5rem;
+}/*# sourceMappingURL=style.css.map */
