@@ -26,10 +26,6 @@ body .main {
   position: relative;
   z-index: 1;
 }
-body .main ing-cat {
-  background-image: url("../img/player.jpg");
-  background-size: cover;
-}
 
 @media (max-width: 425px) {
   .Player {
