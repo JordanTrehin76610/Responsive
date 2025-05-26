@@ -1,8 +1,12 @@
+.color {
+    background-color: #F3F3F3;
+}
+
 .Football {
     position: absolute;
-    top: 69%;
-    left: 25%;
-    font-size: 4.5rem;
+    top: 70%;
+    left: 26%;
+    font-size: 4rem;
 }
 
 button {
@@ -11,69 +15,31 @@ button {
     left: 27.5%;
 }
 
-body {
-    height: 55rem;
-}
-
-.Couverture {
-    height: 50.7rem;
-}
-
-.Contenant {
-    margin-left: 17rem;
-    margin-right: 12rem;
-}
-
-i {
-    font-size: 0.7rem;
-}
-
-.photo {
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    margin-left: 15%;
-}
-
-.background {
-    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(202, 248, 255, 1) 0%, rgba(186, 204, 227, 1) 51.2%, rgba(117, 144, 179, 1) 100.1%);
-}
-
-.imagemargin {
-    margin-top: 2.5rem;
-}
-
-.margintop {
-    margin-top: 0.6rem;
-}
-
-.pasgap {
-    object-fit: cover;
-
-}
-
-.OnImage {
-    width: 10%;
+.bg-image {
+    background-image: url(../img/Background.jpg);
 }
 
 @media (max-width: 640px) {
 
-    .OnImage {
-        width: 50%;
-
-    }
-
     .Football {
         position: absolute;
-        top: 69%;
-        left: 10%;
-        font-size: 4.5rem;
+        top: 45%;
+        left: 30%;
+        font-size: 3rem;
     }
 
     button {
         position: absolute;
-        top: 80%;
-        left: 25%;
+        top: 53%;
+        left: 29%;
+    }
+
+    .avis {
+        margin-top: 2.2rem;
+    }
+
+    .prix {
+        margin-top: 1.5rem;
     }
 
 }
