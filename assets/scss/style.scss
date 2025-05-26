@@ -36,9 +36,44 @@ i {
 }
 
 .background {
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(202,248,255,1) 0%, rgba(186,204,227,1) 51.2%, rgba(117,144,179,1) 100.1% );
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(202, 248, 255, 1) 0%, rgba(186, 204, 227, 1) 51.2%, rgba(117, 144, 179, 1) 100.1%);
 }
 
 .imagemargin {
     margin-top: 2.5rem;
+}
+
+.margintop {
+    margin-top: 0.6rem;
+}
+
+.pasgap {
+    object-fit: cover;
+
+}
+
+.OnImage {
+    width: 10%;
+}
+
+@media (max-width: 640px) {
+
+    .OnImage {
+        width: 50%;
+
+    }
+
+    .Football {
+        position: absolute;
+        top: 69%;
+        left: 10%;
+        font-size: 4.5rem;
+    }
+
+    button {
+        position: absolute;
+        top: 80%;
+        left: 25%;
+    }
+
 }
